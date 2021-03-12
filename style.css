@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+body
+{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'lato',sans-serif;
+    color: black;
+}
+.navbar{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 2px , 0;
+}   
+.heading-content
+{
+    position: absolute;
+    top:40%;
+    width: 100%;
+    max-width: 100%;
+}
+.heading-content h5{
+    font-size: 4em;
+    font-weight: 300;
+    color: rgb(5, 0, 0);
+    font-family: monospace;
+}
+.heading-content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+.heading-content p{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
